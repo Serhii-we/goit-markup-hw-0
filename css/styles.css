@@ -415,7 +415,6 @@ color: var(--hover-color);
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 .clients-list-icon {
   width: 170px;
@@ -462,6 +461,7 @@ color: var(--hover-color);
 } 
 /* Адресс */
 .map-link {
+  min-width: 231px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -498,17 +498,18 @@ color: var(--hover-color);
   margin-bottom: 9px;
 }
 /*Присоединяйтесь*/
-  .network {
+.container-two {
   display: flex;
-  justify-content: center;
-  align-items:center;
+  vertical-align: baseline;
+  padding-right: 878px;
+  outline: 1px solid violet;
 }
-.network-two {
-  width: 206px;
-  height: 80px;
+.network {
+  margin-left: 70px;
+  outline: 1px solid violet;
+
 }
 .network-item {
-  font-family: 'Raleway', sans-serif;
   display: flex;
   align-items: center;
   margin-bottom: 20px;
@@ -516,15 +517,25 @@ color: var(--hover-color);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   text-align: center;
   color: var(--white-color);
 }
-.network-list{
+.network-list {
   display: flex;
-  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.network-list-icon{
+  width: 20px;
+  height: 20px;
+  fill: var(--fill-color);
 }
 .network-list-item:not(:first-child) {
 margin-left: 10px;
+}
+.network-list-link link {
+  display: block;
+
 }
 .network-list-link {
   display: flex;
@@ -535,11 +546,6 @@ margin-left: 10px;
   border-radius: 50%;
   cursor: pointer;
   color: var(--fill-color);
-}
-.network-list-icon {
-  width: 20px;
-  height: 20px;
-  fill: var(--fill-color);
 }
 .network-list-link:hover,
 .network-list-link:focus {
