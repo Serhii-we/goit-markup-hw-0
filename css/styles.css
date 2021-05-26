@@ -146,6 +146,7 @@ color: var(--hover-color);
 }
 .contacts,
 .tel-link {
+  display: flex;
   align-items: center;
   font-style: normal;
   font-weight: 500;
